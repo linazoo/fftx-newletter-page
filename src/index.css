@@ -15,6 +15,19 @@
   --blue: #12b5e5;
   --orange: #fc7428;
   --red: #ed203d;
+  /* ftx specific  */
+  --navy: #14317d;
+  --blue-1:  #5775c4;
+  --peachy:  #e09985;
+  --tangerine:  #e46463;
+  --tomato:  #c7384d;
+  --green-1:  #315937;
+  --grass:  #49a653;
+  --lemon:  #bcdb69;
+  --banana:  #ffcd2c;
+  --orangey:  #eea34e;
+  --kiss:  #e04d26;
+  --creamy: #f7f7f0;
 }
 
 
@@ -33,15 +46,22 @@ body,
 body {
   font-family: 'Space Grotesk', sans-serif;
 
-  background: var(--biege-body);
+  background: var(--creamy);
   color: var(--charcoal);
 }
 
 .container {
-  max-width: 1024px;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.tiers {
+  padding: 2rem;
+  margin-right: 11rem;
+  margin-left: 11rem;
+}
+
 
 .logo {
   padding: 30px;
@@ -49,9 +69,23 @@ body {
   height: 100px;
 }
 
-.header {
-  font-size:2.75rem;
+.h1 {
+  font-size:3.75rem;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.h3 {
+  font-size: 2rem;
+  font-weight: 500;
   display: flex;
   justify-content: center;
 }
@@ -60,14 +94,13 @@ body {
 margin: 3rem;
 font-size: 1.5rem;
 line-height: 2rem;
+text-align: center;
 }
 .sub-header {
 font-size: 1.5rem;
 display: flex;
 justify-content: center;
+font-weight: 500;
 
 }
 
-.header-color{
-  background-color: var(--yellow);
-}
