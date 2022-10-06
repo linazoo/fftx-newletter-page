@@ -13,7 +13,9 @@ const Tiers = () => {
             <p className="text">
               We are the only nonprofit organization serving women and LGBTQ+
               creators and small business owners in Texas 🤠 and thats why they
-              are obsessed with our newsletter 🌎
+              are obsessed with our juicy newsletter. Now you can sponsor one of
+              our many event announcement notifications, updates on open
+              applications and immaculate community notes and stories.
             </p>
             <p className="h2 tiers">🔥The Stats🔥</p>
 
@@ -46,10 +48,8 @@ const Tiers = () => {
             <h3 className="h3 ">☁️Premier Platinum</h3>
             <p className="sub-header">1 spot per issue $1,000 - 1,500 </p>
             <p className="text">
-              Sponsor our 'volunteering newsletter' the whole thing. Our
-              Volunteering program is very popular and we have tons of events we
-              get the word out for. Note: We can think about what the actual
-              tiers end up being but I'm trying to think about them
+              Sponsor our whole volunteering newsletter, or workshops or any
+              specific programming that we have in our newsletter that month.
             </p>
             <h3 className="h3 ">🌈Premier Gold</h3>
             <p className="sub-header">1 spot per issue $600 - $1000 </p>
@@ -62,12 +62,15 @@ const Tiers = () => {
             <h3 className="h3 ">🥭Premier Silver </h3>
             <p className="sub-header">3 spots per issue $250-$500 </p>
             <p className="text">
-              One liner that says "sponsored by Titos" or something like that,
-              nothing too crazy but just paying for the space. This might be a
-              good one to start off with and its doable with little work for us
-              depending on how this would be added on MailChimp ofc.
+              Sponsor an event or announcement. One liner that says "sponsored
+              by Titos" or something like that, nothing too crazy but just
+              paying for the space. This might be a good one to start off with
+              and its doable with little work for us depending on how this would
+              be added on MailChimp ofc.
             </p>
           </div>
+
+          <h3 className="h3 ">Interested? </h3>
         </div>
       </section>
     </main>
